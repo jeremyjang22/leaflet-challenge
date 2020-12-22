@@ -15,7 +15,7 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 }).addTo(myMap);
 
 //defining colors for the scale used later
-var scale_color = ["#00ff00","#b3ffb3","#ccff66","#ffcc66","#ff661a","#ff1a1a"];
+var scale_color = ["#00ff00","#ccff66","#ffff66","#ffcc66","#ff661a","#ff1a1a"];
 
 d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson", function(data){
     function getColor(depth){
